@@ -85,14 +85,14 @@ tool = pyocr.get_available_tools()[0]
 lang = 'spa'
 ```
 
-Ahora incorporaremos al script la seccion del código que permite cargar en memoria un fichero PDF y convertir cada una de sus páginas en una imagen JPEG:
+Ahora incorporaremos al script la seccion del código que permite cargar en memoria un fichero PDF y, utilizando la librería wand, convertir cada una de sus páginas en una imagen JPEG. Como se intuye en el código, podemos variar los valores de resolución (300) y tipo de fichero (jpeg) para probar diferentes configuraciones:
 ```
 ### Cargamos el fichero PDF y convertimos cada una de sus páginas en una imagen JPEG (objeto blob)
 image_pdf = Image(filename="jpegfile.pdf", resolution=300)
 image_jpeg = image_pdf.convert('jpeg')
 ```
 
-Luego guardamos todas las imágenes en un array:
+Después guardamos en un array las imágenes de cada página como objeto BLOB:
 ```
 ### Guardamos todas las imágenes en un array
 page_jpeg_list = []
@@ -101,7 +101,7 @@ for img in image_jpeg.sequence:
     page_jpeg_list.append(img_page.make_blob('jpeg'))
 ```
 
-Ahora es el momento de recorrer el array de imágenes para extraer el texto de cada una de ellas aplicando OCR, que iremos añadiendo a una lista:
+Ahora es el momento de recorrer el array de imágenes para extraer el texto de cada una de ellas aplicando OCR. El texto de cada página lo iremos añadiendo a una lista:
 ```
 ### Recorremos el array de imágenes y extraemos el texto de cada una de ellas aplicando OCR
 page_text_list = []
@@ -112,7 +112,6 @@ for img in page_jpeg_list:
 ```
 
 Por último, guardamos el texto completo en un fichero de texto:
-
 ```
 ### Guardamos el texto en un fichero:    
 fp = open('textfile.txt', 'w')
@@ -128,7 +127,7 @@ Ahora que ya tenemos todo dispuesto para ejecutar nuestra prueba (el script y el
 python3.6 ocrtest.py
 ```
 
-La ejecución del script arroja el siguiente log:
+La ejecución del script muestra por pantalla el siguiente log:
 
 ![pyocr exec](./images/pyocrexec.png)
 

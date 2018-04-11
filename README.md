@@ -42,7 +42,7 @@ pip install pillow
 
 Ahora vamos a crear un pequeño script Python que reciba un fichero PDF como entrada y nos genere un fichero TXT a la salida.
 
-En nuestro editor preferido crearemos un nuevo fichero al que llamaremos **ocrtest.py** y comenzaremos por añadirle la cabecera y las libreras:
+En nuestro editor preferido crearemos un nuevo fichero, al que llamaremos **ocrtest.py**, y comenzaremos por añadirle la cabecera y las libreras:
 ```
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-

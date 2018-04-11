@@ -131,12 +131,11 @@ La ejecución del script muestra por pantalla el siguiente log:
 
 ![pyocr exec](./images/pyocrexec.png)
 
-
-Aquí os dejo una imagen de parte de la primera página del fichero PDF:
+Aquí os dejo una imagen del inicio de la primera página del fichero PDF original:
 
 ![pdffile](./images/pdffile.png)
 
-Y aquí la correspondiente en TXT:
+Y aquí el correspondiente texto extraído mediante OCR con nuestro script:
 
 ![txtfile](./images/txtfile.png)
 

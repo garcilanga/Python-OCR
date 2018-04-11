@@ -150,6 +150,9 @@ Y aquí el correspondiente texto extraído mediante OCR con nuestro script:
 - OCR:
     - [Reconocimiento óptico de caracteres](https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres)
 
+- Tesseract OCR:
+    - [Tesseract OCR: Installation and Usage on Ubuntu 16.04](https://www.howtoforge.com/tutorial/tesseract-ocr-installation-and-usage-on-ubuntu-16-04/)
+
 - Librería pyocr:
     - [pytesseract](https://pypi.python.org/pypi/pyocr)
 

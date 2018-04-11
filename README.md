@@ -156,19 +156,10 @@ Y aquí el correspondiente texto extraído mediante OCR con nuestro script:
 - Librería pyocr:
     - [pytesseract](https://pypi.python.org/pypi/pyocr)
 
-- Librería wand:
-    - [Librería wand (wand-py.org)](http://docs.wand-py.org/en/0.4.4/)
-    - [Librería wand (pypi.python.org)](https://pypi.python.org/pypi/Wand)
-    - [Wand Documentation Release 0.4.5](https://media.readthedocs.org/pdf/wand/latest/wand.pdf)
-
 - Otros:
     - [OCR on PDF files using Python](https://pythontips.com/2016/02/25/ocr-on-pdf-files-using-python/)
     - [Python: OCR for PDF or Compare textract, pytesseract, and pyocr](https://medium.com/@winston.smith.spb/python-ocr-for-pdf-or-compare-textract-pytesseract-and-pyocr-acb19122f38c)
-    - [Tesseract OCR: Installation and Usage on Ubuntu 16.04](https://www.howtoforge.com/tutorial/tesseract-ocr-installation-and-usage-on-ubuntu-16-04/)
-
-- Librería textract:
-    - [textract](https://textract.readthedocs.io/en/stable/)
-
-- Librería pytesseract:
-    - [pytesseract](https://pypi.python.org/pypi/pytesseract)
+    - [Librería wand (wand-py.org)](http://docs.wand-py.org/en/0.4.4/)
+    - [Librería textract](https://textract.readthedocs.io/en/stable/)
+    - [Librería pytesseract](https://pypi.python.org/pypi/pytesseract)
 

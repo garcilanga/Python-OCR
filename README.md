@@ -23,7 +23,7 @@ Así pues, para preparar nuestro entorno de trabajo necesitamos, además de Pyth
 - Instalar la herramienta **Tesseract**, añadiendo además el lenguaje español (**spa**).
 - Instalar las librerías Python: **pyocr**, **wand** y **pillow**.
 
-y para ello abriremos en nuestra máquina Ubuntu (16.04) un terminal y ejecutamos los siguientes comandos:
+Para ello abriremos en nuestra máquina Ubuntu (16.04) un terminal y ejecutamos los siguientes comandos:
 
 ```
 # Instalar Tesseract (tesseract-ocr-all instala todos los lenguajes)

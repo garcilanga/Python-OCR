@@ -9,7 +9,7 @@ Hay que tener muy presente que, por regla general, **la extracción de texto des
 
 ## Python, Tesseract y pyocr
 
-Podemos incorporar el tratramiento OCR en nuestras herramientas **Python** utilizando **Tesseract**, la biblioteca de OCR más famosa que existe, patrocinada por Google.
+Podemos incorporar el tratamiento OCR en nuestras herramientas **Python** utilizando **Tesseract**, la biblioteca de OCR más famosa que existe, patrocinada por Google.
 
 **Tesseract** se instala en el sistema operativo, pero la instalación por defecto sólo viene con algunos lenguajes: **equ**, **osd** y **eng**. Si necesitamos añadir algún lenguaje más, por ejemplo el español (**spa**), debemos instalarlo aparte. También tenemos opción de instalar todos los lenguajes disponibles (**all**).
 
@@ -89,7 +89,7 @@ tool = pyocr.get_available_tools()[0]
 lang = 'spa'
 ```
 
-Ahora incorporaremos al script la seccion del código que permite cargar en memoria un fichero PDF y, utilizando la librería wand, convertir cada una de sus páginas en una imagen JPEG. Como se intuye en el código, podemos variar los valores de resolución (300) y tipo de fichero (jpeg) para probar diferentes configuraciones:
+Ahora incorporaremos al script la sección del código que permite cargar en memoria un fichero PDF y, utilizando la librería wand, convertir cada una de sus páginas en una imagen JPEG. Como se intuye en el código, podemos variar los valores de resolución (300) y tipo de fichero (jpeg) para probar diferentes configuraciones:
 ```
 ### Cargamos el fichero PDF y convertimos cada una de sus páginas en una imagen JPEG (objeto blob)
 image_pdf = Image(filename="jpegfile.pdf", resolution=300)
@@ -125,7 +125,7 @@ fp.close()
 
 ## Probando el script ocrtest.py
 
-Para la prueba final he elegido (... al hazar) un fichero PDF, al que he llamado jpegfile.pdf, que corresponde a un documento de 1992 sobre el proyecto ACQUILEX y la adquisición de conocimiento léxico.
+Para la prueba final he elegido (... al azar) un fichero PDF, al que he llamado jpegfile.pdf, que corresponde a un documento de 1992 sobre el proyecto ACQUILEX y la adquisición de conocimiento léxico.
 
 Ahora que ya tenemos todo dispuesto para ejecutar nuestra prueba (el script y el fichero PDF), podemos ejecutar por consola el comando siguiente:
 

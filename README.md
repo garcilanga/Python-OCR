@@ -1,7 +1,7 @@
 # OCR con Python
 
 
-Existe gran cantidad de archivos **PDF que contienen imágenes en lugar de texto** y en ocasiones podemos **necesitar extraerlo** para interactuar con él mediante programas de edición de texto o cualquier otro proceso de tratamiento de información.
+Hay gran cantidad de archivos **PDF que contienen imágenes en lugar de texto** y en ocasiones podemos **necesitar extraerlo** para interactuar con él mediante programas de edición de texto o cualquier otro proceso de tratamiento de información.
 
 La disciplina tecnológica que trata estos temas es conocida por sus siglas en inglés **OCR** (Optical Character Recognition) cuya traducción al castellano es **Reconocimiento Óptico de Caracteres** (ROC). El reconocimiento óptico de caracteres es un proceso dirigido a la identificación automática de textos a partir de imágenes de símbolos o caracteres pertenecientes a un determinado alfabeto, para después almacenarlos en forma de texto.
 
@@ -15,7 +15,7 @@ Podemos incorporar el tratramiento OCR en nuestras herramientas **Python** utili
 
 > NOTA Puedes ver una lista de lenguajes en la siguiente url: https://askubuntu.com/questions/793634/how-do-i-install-a-new-language-pack-for-tesseract-on-16-04
 
-Existen varias librerías python que nos permiten interactuar con Tesseract, como **textract**, **pytesseract** o **pyocr**. Aunque las dos primeras son dos buenas bibliotecas, vamos a utilizar en esta ocasión **pyocr**, ya que viene con muchas funciones: se puede configurar para reconocer frases, palabras, dígitos, etc., puede usar Tesseract o Cuneiform, detecta la orientación del texto y mucho más.
+En python hay varias librerías que nos permiten interactuar con Tesseract, como **textract**, **pytesseract** o **pyocr**. Aunque las dos primeras son dos buenas bibliotecas, vamos a utilizar en esta ocasión **pyocr**, ya que viene con muchas funciones: se puede configurar para reconocer frases, palabras, dígitos, etc., puede usar Tesseract o Cuneiform, detecta la orientación del texto y mucho más.
 
 Hacer OCR en una imagen es muy fácil, el problema surge cuando tenemos que hacerlo sobre un documento PDF. Por ello necesitaremos además algunas librerías adicionales, como **wand**, para convertir archivos PDF a imágenes. Por otro lado, **pyocr** también tiene dependencias con la librería **pillow**. 
 

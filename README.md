@@ -56,7 +56,7 @@ import io
 import sys
 ```
 
-A continuación crearemos un método **show\_config()** que nos permitirá comprobar las bibliotecas OCR y los lenguajes disponibles en nuestro sistema. Llamaremos a esa función un vez para obtener la información descrita y luego la asignaremos directamente para las siguientes ejecuciones de nuestro script:
+A continuación crearemos un método **show\_config()** que nos permitirá comprobar las bibliotecas OCR y los lenguajes disponibles en nuestro sistema. Ejecutaremos una vez el script llamando a dicha función para que nos muestre la información y podamos elegir la que nos interese. Después la asignaremos directamente en el script para que tome esos valores de configuración en las siguientes ejecuciones del mismo:
 
 ```
 def show_config():

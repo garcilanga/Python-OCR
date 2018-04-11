@@ -15,13 +15,13 @@ Podemos incorporar el tratramiento OCR en nuestras herramientas **Python** utili
 
 > NOTA Puedes ver una lista de lenguajes en la siguiente url: https://askubuntu.com/questions/793634/how-do-i-install-a-new-language-pack-for-tesseract-on-16-04
 
-En python hay varias librerías que nos permiten interactuar con Tesseract, como **textract**, **pytesseract** o **pyocr**. Aunque las dos primeras son dos buenas bibliotecas, vamos a utilizar en esta ocasión **pyocr**, ya que viene con muchas funciones: se puede configurar para reconocer frases, palabras, dígitos, etc., puede usar Tesseract o Cuneiform, detecta la orientación del texto y mucho más.
+En Python hay varias librerías que nos permiten interactuar con Tesseract, como **textract**, **pytesseract** o **pyocr**. Aunque las dos primeras son dos buenas bibliotecas, vamos a utilizar en esta ocasión **pyocr**, ya que viene con muchas funciones: se puede configurar para reconocer frases, palabras, dígitos, etc., puede usar Tesseract o Cuneiform, detecta la orientación del texto y mucho más.
 
 Hacer OCR en una imagen es muy fácil, el problema surge cuando tenemos que hacerlo sobre un documento PDF. Por ello necesitaremos además algunas librerías adicionales, como **wand**, para convertir archivos PDF a imágenes. Por otro lado, **pyocr** también tiene dependencias con la librería **pillow**. 
 
 Así pues, para preparar nuestro entorno de trabajo necesitamos, además de Python:
 - Instalar la herramienta **Tesseract**, añadiendo además el lenguaje español (**spa**).
-- Instalar las librerías python: **pyocr**, **wand** y **pillow**.
+- Instalar las librerías Python: **pyocr**, **wand** y **pillow**.
 
 En nuestra máquina con S.O. Ubuntu abrimos un terminal y ejecutamos los siguientes comandos:
 
@@ -41,7 +41,7 @@ pip install pillow
 
 ```
 
-Ahora vamos a crear un pequeño script python que reciba un fichero PDF como entrada y nos genere un fichero TXT a la salida.
+Ahora vamos a crear un pequeño script Python que reciba un fichero PDF como entrada y nos genere un fichero TXT a la salida.
 
 En primer lugar cargaremos las librerías:
 ```

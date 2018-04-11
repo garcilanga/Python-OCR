@@ -119,7 +119,7 @@ fp.write('\n\n'.join(page_text_list))
 fp.close()
 ```
 
-El fichero PDF de ejemplo, jpegfile.pdf, que he elegido... al hazar, corresponde a un documento de 1992 sobre el proyecto ACQUILEX y la adquisición de conocimiento léxico.
+Para la prueba final he eleido (... al hazar) un fichero PDF, al que he llamado jpegfile.pdf, que corresponde a un documento de 1992 sobre el proyecto ACQUILEX y la adquisición de conocimiento léxico.
 
 Ahora que ya tenemos todo dispuesto para ejecutar nuestra prueba (el script y el fichero PDF), podemos ejecutar por consola el comando siguiente:
 

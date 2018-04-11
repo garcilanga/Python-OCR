@@ -38,13 +38,15 @@ pip install wand
 
 # Instalar la librería Pillow
 pip install pillow
-
 ```
 
 Ahora vamos a crear un pequeño script Python que reciba un fichero PDF como entrada y nos genere un fichero TXT a la salida.
 
-En primer lugar cargaremos las librerías:
+En nuestro editor preferido crearemos un nuevo fichero al que llamaremos **ocrtest.py** y comenzaremos por añadirle la cabecera y las libreras:
 ```
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 ### Importamos las librerías
 from wand.image import Image
 from PIL import Image as PI

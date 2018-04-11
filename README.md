@@ -19,11 +19,13 @@ En Python hay varias librerías que nos permiten interactuar con Tesseract, como
 
 Hacer OCR en una imagen es muy fácil, el problema surge cuando tenemos que hacerlo sobre un documento PDF. Por ello necesitaremos además algunas librerías adicionales, como **wand**, para convertir archivos PDF a imágenes. Por otro lado, **pyocr** también tiene dependencias con la librería **pillow**. 
 
-Así pues, para preparar nuestro entorno de trabajo necesitamos, además de Python:
+## Entorno de trabajo
+
+Para preparar nuestro entorno de trabajo necesitaremos, además de Python:
 - Instalar la herramienta **Tesseract**, añadiendo además el lenguaje español (**spa**).
 - Instalar las librerías Python: **pyocr**, **wand** y **pillow**.
 
-Para ello abriremos en nuestra máquina Ubuntu (16.04) un terminal y ejecutamos los siguientes comandos:
+Abrimos un terminal en nuestra máquina Ubuntu (16.04) y ejecutamos los siguientes comandos:
 
 ```
 # Instalar Tesseract (tesseract-ocr-all instala todos los lenguajes)
@@ -39,6 +41,8 @@ pip install wand
 # Instalar la librería Pillow
 pip install pillow
 ```
+
+## Script ocrtest.py
 
 Ahora vamos a crear un pequeño script Python que reciba un fichero PDF como entrada y nos genere un fichero TXT a la salida.
 
@@ -119,6 +123,8 @@ fp.write('\n\n'.join(page_text_list))
 fp.close()
 ```
 
+## Probando el script ocrtest.py
+
 Para la prueba final he eleido (... al hazar) un fichero PDF, al que he llamado jpegfile.pdf, que corresponde a un documento de 1992 sobre el proyecto ACQUILEX y la adquisición de conocimiento léxico.
 
 Ahora que ya tenemos todo dispuesto para ejecutar nuestra prueba (el script y el fichero PDF), podemos ejecutar por consola el comando siguiente:
@@ -139,7 +145,7 @@ Y aquí el correspondiente texto extraído mediante OCR con nuestro script:
 
 ![txtfile](./images/txtfile.png)
 
-# Referencias y más información
+## Referencias y más información
 
 - OCR:
     - [Reconocimiento óptico de caracteres](https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres)

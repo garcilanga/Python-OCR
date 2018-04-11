@@ -149,10 +149,10 @@ Y aquí el correspondiente texto extraído mediante OCR con nuestro script:
 
 - [OCR - Reconocimiento óptico de caracteres](https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres)
 - [Tesseract OCR: Installation and Usage on Ubuntu 16.04](https://www.howtoforge.com/tutorial/tesseract-ocr-installation-and-usage-on-ubuntu-16-04/)
-- [Librería pyocr](https://pypi.python.org/pypi/pyocr)
 - [OCR on PDF files using Python](https://pythontips.com/2016/02/25/ocr-on-pdf-files-using-python/)
 - [Python: OCR for PDF or Compare textract, pytesseract, and pyocr](https://medium.com/@winston.smith.spb/python-ocr-for-pdf-or-compare-textract-pytesseract-and-pyocr-acb19122f38c)
-- [Librería wand (wand-py.org)](http://docs.wand-py.org/en/0.4.4/)
+- [Librería pyocr](https://pypi.python.org/pypi/pyocr)
+- [Librería wand](https://pypi.python.org/pypi/Wand/0.4.4)
 - [Librería textract](https://textract.readthedocs.io/en/stable/)
 - [Librería pytesseract](https://pypi.python.org/pypi/pytesseract)
 
